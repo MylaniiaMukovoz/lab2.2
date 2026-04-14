@@ -17,6 +17,7 @@ struct Triangle {
 double distance(const Point &p1, const Point &p2);
 double determinant(Point A, Point B);
 int containsOnDegenerate(const Triangle &triangle, const Point &point);
+void result();
 
 
 #endif
